@@ -24,9 +24,8 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
-
-console.log(d);
+let firstName = "Alice";
+let fiveItems = 5;
+let twentyDollars = 20;
+let _sentence = firstName + " bought " + fiveItems + " items for $" + twentyDollars + ".";
+console.log(_sentence);
